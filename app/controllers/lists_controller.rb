@@ -11,6 +11,7 @@ class ListsController < ApplicationController
       render :new
     end
   end 
+  
   def index
     @lists= List.all
   end
